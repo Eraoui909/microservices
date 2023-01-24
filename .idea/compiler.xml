@@ -10,12 +10,14 @@
         <module name="currency-conversion" />
         <module name="limits-service" />
         <module name="spring-cloud-config-server" />
+        <module name="naming-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="currency-conversion" target="17" />
       <module name="currency-exchange" target="17" />
       <module name="limits-service" target="17" />
+      <module name="naming-server" target="17" />
       <module name="spring-cloud-config-server" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +26,7 @@
       <module name="currency-conversion" options="-parameters" />
       <module name="currency-exchange" options="-parameters" />
       <module name="limits-service" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
       <module name="spring-cloud-config-server" options="-parameters" />
     </option>
   </component>
